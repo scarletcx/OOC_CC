@@ -7,3 +7,4 @@ app.config.from_object('app.config.Config')
 mongo = PyMongo(app)
 
 from app import routes  # 确保在最后导入 routes 以避免循环导入
+

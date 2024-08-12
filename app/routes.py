@@ -1,4 +1,4 @@
-from flask import request, jsonify
+from flask import  jsonify
 from app import app, mongo
 
 @app.route('/buyBait/<uid>/<int:baitNumber>/<int:coins>', methods=['GET'])
